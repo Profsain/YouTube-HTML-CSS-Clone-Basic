@@ -130,12 +130,12 @@ body {
 
 nav {
   display: flex;
-  align-items: stretch;
+  align-content: stretch;
 }
 
 .brand {
   display: flex;
-  flex-grow: 1;
+  flex: 20%;
 }
 
 #menuIcon {
@@ -149,7 +149,7 @@ nav {
 
 .searchBar {
   width: 60%;
-  flex-grow: 1;
+  flex: 60%;
 }
 form.searchForm input[type="text"] {
   padding: 10px;
@@ -182,8 +182,9 @@ form.searchForm button {
 }
 
 .navMenu {
-  flex-grow: 1;
+  flex: 20%;
 }
+
 .menuBtn {
   margin-right: 12px;
   padding: 12px;
